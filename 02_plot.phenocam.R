@@ -1,7 +1,8 @@
 
-https://github.com/msilano105/EF_Exercise4
+##https://github.com/msilano105/EF_Exercise4
 
 ## Define ciEnvelope function
+```{r}
 ciEnvelope <- function(x,ylo,yhi,col="lightgrey",...){
   ## identify chunks of data with no missing values
   has.na = apply(is.na(cbind(x,ylo,yhi)),1,sum)
@@ -46,5 +47,5 @@ plot.phenocam <- function(dat,...){
   
 }
 
-
+```
 # yes
